@@ -22,7 +22,7 @@ image1.setAttribute("src", randomImageSource);
 
 var randomNumber2=Math.floor(Math.random()*6) + 1; // random number 1-6
 
-var randomDiceImage2="image/dice" + randomNumber2 + ".png"; //dice1 to dice6
+var randomDiceImage2="dice" + randomNumber2 + ".png"; //dice1 to dice6
 
 document.querySelectorAll("img")[1].setAttribute("src", randomDiceImage2);
 
