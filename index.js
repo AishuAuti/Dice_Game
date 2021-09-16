@@ -5,7 +5,7 @@ randomNumber1=Math.floor(Math.random()*6) + 1; // random number 1-6
 
 var randomDiceImage="dice" + randomNumber1 + ".png"; //dice1 to dice6
 
-var randomImageSource = "image/" + randomDiceImage; //print image
+var randomImageSource = "" + randomDiceImage; //print image
 
 var image1 = document.querySelectorAll("img")[0];
 image1.setAttribute("src", randomImageSource);
